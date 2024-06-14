@@ -22,10 +22,10 @@ classDiagram
         +atualizarPagina() : void
     }
 
-    class iPhone {
+    class IPhone {
     }
 
-    iPhone --> ReprodutorMusical
-    iPhone --> AparelhoTelefonico
-    iPhone --> NavegadorInternet
+    IPhone --> ReprodutorMusical
+    IPhone --> AparelhoTelefonico
+    IPhone --> NavegadorInternet
 ```
