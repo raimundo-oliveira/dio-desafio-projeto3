@@ -3,23 +3,23 @@
 classDiagram
     class ReprodutorMusical {
         <<interface>>
-        +tocar() : void
-        +pausar() : void
-        +selecionarMusica(String musica) : void
+        +tocar()void
+        +pausar()void
+        +selecionarMusica(String musica)void
     }
 
     class AparelhoTelefonico {
         <<interface>>
-        +ligar(String numero) : void
-        +atender() : void
-        +iniciarCorreioVoz() : void
+        +ligar(String numero)void
+        +atender()void
+        +iniciarCorreioVoz()void
     }
 
     class NavegadorInternet {
         <<interface>>
-        +exibirPagina(String url) : void
-        +adicionarNovaAba() : void
-        +atualizarPagina() : void
+        +exibirPagina(String url)void
+        +adicionarNovaAba()void
+        +atualizarPagina()void
     }
 
     class IPhone {
